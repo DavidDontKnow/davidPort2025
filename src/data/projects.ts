@@ -6,7 +6,7 @@ export const PROJECTS: Project[] = [
     title: "A+ Quiz",
     description: "A quiz application for A+ certification preparation.",
     technologies: ["React", "Typescript", "Vite", "Tailwind CSS"],
-    image: "./public/aplusquiz.png",
+    image: "https://via.placeholder.com/150",
     link: "https://aplusquiz.daveed.dev/",
     repo: "https://github.com/DavidDontKnow/viteComptiaQuiz",
   },
