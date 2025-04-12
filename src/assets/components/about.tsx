@@ -48,7 +48,7 @@ const About = () => {
           </p>
           <p className="text-lg font-thin">Graduated: May 2023</p>
           <h3 className="mt-6 font-semibold text-xl">Skills</h3>
-          <div className="inline-flex mt-4 gap-6 w-3/4 flex-wrap justify-center">
+          <div className="inline-flex mt-4 gap-6 w-3/4 justify-center">
             {/* Languages */}
             <ul className=" gap-3 list-inside">
               <li className="text-md text-[#00df9a]">Languages</li>
