@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <div className="bg-black text-white p-8">
+    <div id="Contact" className="bg-black text-white p-8">
       <h1 className="text-3xl font-bold text-center text-[#00df9a]">
         Contact Me
       </h1>

@@ -9,7 +9,9 @@ function App() {
     <div className="bg-black text-white">
       <Navbar />
       <Home />
+      <div id="About" className="h-[80px]"></div>
       <About />
+      <div id="Projects" className="h-[96px] bg-[#012301]"></div>
       <Projects />
       <Contact />
       <Foot />

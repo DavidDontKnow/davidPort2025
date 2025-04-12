@@ -1,7 +1,7 @@
 import { TypeAnimation } from "react-type-animation";
 const Home = () => {
   return (
-    <div className="w-full h-screen bg-[#012301]">
+    <div id="Home" className="w-full h-screen bg-[#012301]">
       <div className="max-w-[1240px] mx-auto px-4 py-16 flex flex-col justify-center h-full">
         <h1 className="text-[#00df9a] text-5xl md:text-7xl font-bold">
           David Gutierrez
@@ -62,7 +62,13 @@ const Home = () => {
             </svg>
           </a>
         </div>
-        <button className="bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black animate-pulse hover:animate-none">
+        <button
+          onClick={(e) => {
+            e.preventDefault();
+            window.location.replace("/#About");
+          }}
+          className="bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black animate-pulse hover:animate-none"
+        >
           Discover More
         </button>
       </div>

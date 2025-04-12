@@ -28,6 +28,10 @@ const Navbar = () => {
       <ul className="hidden md:flex">
         {navItems.map((item) => (
           <li
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.replace(`/#${item.text}`);
+            }}
             key={item.id}
             className="p-4 hover:bg-[#00df9a] rounded-xl m-2 cursor-pointer duration-300 hover:text-black"
           >
@@ -57,6 +61,11 @@ const Navbar = () => {
         {/* Mobile Navigation Items */}
         {navItems.map((item) => (
           <li
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.replace(`/#${item.text}`);
+              handleNav();
+            }}
             key={item.id}
             className="p-4 border-b rounded-xl hover:bg-[#00df9a] duration-300 hover:text-black cursor-pointer border-gray-600"
           >
