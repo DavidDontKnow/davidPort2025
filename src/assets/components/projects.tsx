@@ -4,7 +4,7 @@ const Projects = () => {
   return (
     <div className="w-full bg-[#012301] text-white">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
-        <h1 className="text-3xl font-bold text-center text-[#00df9a]">
+        <h1 className="text-4xl font-bold text-center text-[#00df9a]">
           Projects
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 mt-8">

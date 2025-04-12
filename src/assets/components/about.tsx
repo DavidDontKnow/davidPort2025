@@ -1,12 +1,12 @@
 const About = () => {
   return (
-    <div className="w-full bg-black text-white h-screen">
+    <div className="w-full bg-black text-white text-2xl">
       <div className="max-w-[1240px] mx-auto px-2 py-16 my-auto">
-        <h1 className="text-3xl font-bold text-center text-[#00df9a]">
+        <h1 className="text-4xl font-bold text-center text-[#00df9a]">
           About Me
         </h1>
         <div className="mt-4 flex flex-col items-center">
-          <h3 className="font-semibold text-xl">Education</h3>
+          <h3 className="font-semibold text-3xl">Education</h3>
           {/* GradCap */}
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -18,14 +18,14 @@ const About = () => {
             <path d="M13.06 15.473a48.45 48.45 0 017.666-3.282c.134 1.414.22 2.843.255 4.285a.75.75 0 01-.46.71 47.878 47.878 0 00-8.105 4.342.75.75 0 01-.832 0 47.877 47.877 0 00-8.104-4.342.75.75 0 01-.461-.71c.035-1.442.121-2.87.255-4.286A48.4 48.4 0 016 13.18v1.27a1.5 1.5 0 00-.14 2.508c-.09.38-.222.753-.397 1.11.452.213.901.434 1.346.661a6.729 6.729 0 00.551-1.608 1.5 1.5 0 00.14-2.67v-.645a48.549 48.549 0 013.44 1.668 2.25 2.25 0 002.12 0z" />
             <path d="M4.462 19.462c.42-.419.753-.89 1-1.394.453.213.902.434 1.347.661a6.743 6.743 0 01-1.286 1.794.75.75 0 11-1.06-1.06z" />
           </svg>
-          <p className="text-lg font-thin text-[#00df9a]">
+          <p className=" font-thin text-[#00df9a]">
             A.S. Computer Information Systems
           </p>
-          <p className="text-lg font-thin">
+          <p className="text-xl font-thin">
             Mt. San Jacinto College, Menifee California
           </p>
-          <p className="text-lg font-thin">Graduated: May 2025</p>
-          <h3 className="font-semibold text-xl mt-8">Certifications</h3>
+          <p className="text-xl font-thin">Graduated: May 2025</p>
+          <h3 className="font-semibold text-3xl mt-8">Certifications</h3>
           {/* Briefcase */}
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -40,15 +40,15 @@ const About = () => {
             />
             <path d="M3 18.4v-2.796a4.3 4.3 0 0 0 .713.31A26.226 26.226 0 0 0 12 17.25c2.892 0 5.68-.468 8.287-1.335.252-.084.49-.189.713-.311V18.4c0 1.452-1.047 2.728-2.523 2.923-2.12.282-4.282.427-6.477.427a49.19 49.19 0 0 1-6.477-.427C4.047 21.128 3 19.852 3 18.4Z" />
           </svg>
-          <p className="text-lg font-thin text-[#00df9a]">
+          <p className="text-xl font-thin text-[#00df9a]">
             Full Stack Web Development Certification
           </p>
-          <p className="text-lg font-thin">
+          <p className="text-xl font-thin">
             UCR Extension, Riverside California
           </p>
-          <p className="text-lg font-thin">Graduated: May 2023</p>
-          <h3 className="mt-6 font-semibold text-xl">Skills</h3>
-          <div className="inline-flex mt-4 gap-6 w-3/4 justify-center">
+          <p className="text-xl font-thin">Graduated: May 2023</p>
+          <h3 className="mt-6 font-semibold text-3xl">Skills</h3>
+          <div className="inline-flex mt-4 gap-6 w-3/4 justify-center flex-wrap text-lg">
             {/* Languages */}
             <ul className=" gap-3 list-inside">
               <li className="text-md text-[#00df9a]">Languages</li>
