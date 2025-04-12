@@ -3,8 +3,7 @@ import Home from "./assets/components/home";
 import About from "./assets/components/about";
 import Projects from "./assets/components/projects";
 import Contact from "./assets/components/contact";
-import Footer from "./assets/components/footer";
-
+import Foot from "./assets/components/foot";
 function App() {
   return (
     <>
@@ -13,7 +12,7 @@ function App() {
       <About />
       <Projects />
       <Contact />
-      <Footer />
+      <Foot />
     </>
   );
 }
