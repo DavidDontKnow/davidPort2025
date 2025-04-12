@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div className="w-full bg-black text-white ">
+    <div className="w-full bg-black text-white h-screen">
       <div className="max-w-[1240px] mx-auto px-2 py-16 my-auto">
         <h1 className="text-3xl font-bold text-center text-[#00df9a]">
           About Me
@@ -47,6 +47,58 @@ const About = () => {
             UCR Extension, Riverside California
           </p>
           <p className="text-lg font-thin">Graduated: May 2023</p>
+          <h3 className="mt-6 font-semibold text-xl">Skills</h3>
+          <div className="inline-flex mt-4 gap-6">
+            {/* Languages */}
+            <ul className=" gap-3 list-inside">
+              <li className="text-md text-[#00df9a]">Languages</li>
+              <li className="text-sm">Python</li>
+              <li className="text-sm">C++</li>
+              <li className="text-sm">JavaScript</li>
+              <li className="text-sm">TypeScript</li>
+              <li className="text-sm">HTML</li>
+              <li className="text-sm">CSS</li>
+              <li className="text-sm">SQL</li>
+              <li className="text-sm">Dart</li>
+            </ul>
+            {/* Frameworks */}
+            <ul className="gap-3 list-inside">
+              <li className="text-md text-[#00df9a]">Frameworks</li>
+              <li className="text-sm">React</li>
+              <li className="text-sm">Node.js</li>
+              <li className="text-sm">Express</li>
+              <li className="text-sm">Flask</li>
+              <li className="text-sm">Tailwind CSS</li>
+              <li className="text-sm">Flutter</li>
+            </ul>
+            {/* Tools */}
+            <ul className="gap-3 list-inside ">
+              <li className="text-md text-[#00df9a]">Tools</li>
+              <li className="text-sm">Git</li>
+              <li className="text-sm">GitHub</li>
+              <li className="text-sm">Jira</li>
+              <li className="text-sm">Slack</li>
+              <li className="text-sm">Visual Studio</li>
+              <li className="text-sm">Xcode</li>
+            </ul>
+            {/* Databases */}
+            <ul className=" gap-3 list-inside">
+              <li className="text-md text-[#00df9a]">Databases</li>
+              <li className="text-sm">MongoDB</li>
+              <li className="text-sm">MySQL</li>
+              <li className="text-sm">SQLite</li>
+              <li className="text-sm">Firebase</li>
+            </ul>
+            {/* Cloud */}
+            <ul className=" gap-3 list-inside">
+              <li className="text-md text-[#00df9a]">Cloud</li>
+              <li className="text-sm">AWS</li>
+              <li className="text-sm">Google Cloud</li>
+              <li className="text-sm">Azure</li>
+              <li className="text-sm">Heroku</li>
+              <li className="text-sm">Netlify</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
