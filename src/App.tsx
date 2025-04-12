@@ -6,14 +6,14 @@ import Contact from "./assets/components/contact";
 import Foot from "./assets/components/foot";
 function App() {
   return (
-    <>
+    <div className="bg-black text-white">
       <Navbar />
       <Home />
       <About />
       <Projects />
       <Contact />
       <Foot />
-    </>
+    </div>
   );
 }
 

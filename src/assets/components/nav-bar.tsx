@@ -19,7 +19,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="bg-black flex justify-between items-center h-24 min-w-full mx-auto px-4 text-white sticky top-0 border-2 border-[#012301] z-10">
+    <div className="bg-black flex justify-between items-center h-24 min-w-full mx-auto px-4 text-white sticky top-0 border-b-2 border-[#012301] z-10">
       <h1 className="w-full text-3xl font-bold text-[#00df9a]">
         David Gutierrez
       </h1>
