@@ -11,8 +11,10 @@ const Home = () => {
             sequence={[
               "Full Stack Developer",
               1500,
-              "Tech Enthusiast",
+              "Web Developer",
               1000,
+              "Tech Enthusiast",
+              900,
               "Backpacker",
               900,
             ]}

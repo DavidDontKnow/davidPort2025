@@ -11,7 +11,7 @@ function App() {
       <Home />
       <div id="About" className="h-[80px]"></div>
       <About />
-      <div id="Projects" className="h-[96px] bg-[#012301]"></div>
+      <div id="Projects" className="h-[80px] bg-[#012301]"></div>
       <Projects />
       <Contact />
       <Foot />
