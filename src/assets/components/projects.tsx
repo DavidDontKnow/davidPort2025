@@ -10,11 +10,14 @@ const Projects = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 mt-8">
           {PROJECTS.map((project) => (
             <div key={project.id} className="p-4 bg-black rounded-lg shadow-lg">
-              <img
-                src={project.image}
-                alt={project.title}
-                className="w-full h-48 object-cover rounded-lg"
-              />
+              <a href={project.link} target="_blank" rel="noopener noreferrer">
+                <img
+                  src={project.image as string}
+                  alt={project.title}
+                  className="w-full h-60 object-cover rounded-lg scale-100 hover:scale-105 transition-transform duration-300 ease-in-out"
+                  loading="lazy"
+                />
+              </a>
               <div className="mt-4">
                 <h2 className="text-xl font-bold text-[#00df9a]">
                   {project.title}
