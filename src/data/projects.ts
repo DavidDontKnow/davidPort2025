@@ -1,5 +1,6 @@
 import { Project } from "../types/projectTypes";
 import projectOne from "../assets/images/APlusQuiz.png";
+import projectTwo from "../assets/images/ProductivityLauncher.png";
 import projectFour from "../assets/images/DaveedDev.png";
 
 export const PROJECTS: Project[] = [
@@ -14,12 +15,13 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 2,
-    title: "Upcoming Project",
-    description: "An upcoming project description.",
-    technologies: ["React", "Node.js", "MongoDB"],
-    image: "https://placehold.co/600x400",
-    link: "https://example.com/project2",
-    repo: "https://github.com",
+    title: "Productivity Launcher",
+    description:
+      "A productivity launcher application that opens websites and applications to dial in and get work done.",
+    technologies: ["Python", "tkinter", "JSON"],
+    image: projectTwo,
+    link: "https://github.com/DavidDontKnow/productivityLauncher",
+    repo: "https://github.com/DavidDontKnow/productivityLauncher",
   },
   {
     id: 3,
