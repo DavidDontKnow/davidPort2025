@@ -1,7 +1,7 @@
 import { Project } from "../types/projectTypes";
 import projectOne from "../assets/images/APlusQuiz.png";
-import projectTwo from "../assets/images/ProductivityLauncher.png";
 import projectFour from "../assets/images/DaveedDev.png";
+import projectTwo from "../assets/images/prodLaunch.png";
 
 export const PROJECTS: Project[] = [
   {
