@@ -9,10 +9,12 @@ const Home = () => {
         <h1 className="text-white text-3xl md:text-5xl font-bold">
           <TypeAnimation
             sequence={[
-              "Full Stack Developer",
-              1500,
-              "Web Developer",
+              "A.S. Computer Information Systems",
+              1200,
+              "CompTIA A+ Certified",
               1000,
+              "IT Support Specialist",
+              900,
               "Tech Enthusiast",
               900,
               "Backpacker",
@@ -25,14 +27,16 @@ const Home = () => {
           />
         </h1>
         <p className="text-white text-2xl py-4 max-w-[700px] font-thin">
-          I am a <span className="text-[#00df9a] ">Full Stack Developer </span>
+          I am a <span className="text-[#00df9a] ">IT Support Specialist </span>
           based in
-          <span className="text-[#00df9a] "> Riverside California</span>. I
-          specialize in all things web development, from front-end to back-end.
-          I am passionate about technology and love learning new things. I am
-          also an avid backpacker and love to explore the great outdoors. I am
-          always looking for new challenges and opportunities to grow my skills
-          and knowledge.
+          <span className="text-[#00df9a] "> Riverside California</span>. I have
+          a solid background in both traditional desktop support and advanced
+          robotics repair and troubleshooting. With hands-on experience
+          diagnosing and resolving complex hardware and software issues, I
+          thrive in fast-paced environments where technology and people
+          intersect. <br></br>My technical expertise spans from maintaining
+          robotic systems to supporting end-users with day-to-day IT needs,
+          ensuring minimal downtime and maximum efficiency.
         </p>
         <div className="flex max-w-[330px] py-4 gap-10">
           {/* Github */}

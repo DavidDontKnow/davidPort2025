@@ -41,6 +41,11 @@ const About = () => {
             <path d="M3 18.4v-2.796a4.3 4.3 0 0 0 .713.31A26.226 26.226 0 0 0 12 17.25c2.892 0 5.68-.468 8.287-1.335.252-.084.49-.189.713-.311V18.4c0 1.452-1.047 2.728-2.523 2.923-2.12.282-4.282.427-6.477.427a49.19 49.19 0 0 1-6.477-.427C4.047 21.128 3 19.852 3 18.4Z" />
           </svg>
           <p className="text-xl font-thin text-[#00df9a]">
+            CompTIA A+ Certification
+          </p>
+          <p className="text-xl font-thin">Obtained: November 2024</p>
+          <br></br>
+          <p className="text-xl font-thin text-[#00df9a]">
             Full Stack Web Development Certification
           </p>
           <p className="text-xl font-thin">
@@ -49,27 +54,28 @@ const About = () => {
           <p className="text-xl font-thin">Graduated: May 2023</p>
           <h3 className="mt-6 font-semibold text-3xl">Skills</h3>
           <div className="inline-flex mt-4 gap-6 w-3/4 justify-center flex-wrap text-lg">
+            {/* Technical Skills */}
+            <ul className="gap-3 list-inside">
+              <li className="text-md text-[#00df9a]">Technical Skills</li>
+              <li className="text-sm">Windows, macOS, and Linux support</li>
+              <li className="text-sm">
+                Desktop/laptop hardware maintenance and upgrades
+              </li>
+              <li className="text-sm">
+                Network setup and troubleshooting (LAN/WAN, TCP/IP)
+              </li>
+              <li className="text-sm">Ticketing systems (Jira)</li>
+              <li className="text-sm">Basic scripting</li>
+              <li className="text-sm">VPN and remote access configuration</li>
+            </ul>
             {/* Languages */}
             <ul className=" gap-3 list-inside">
               <li className="text-md text-[#00df9a]">Languages</li>
               <li className="text-sm">Python</li>
+              <li className="text-sm">Bash</li>
               <li className="text-sm">C++</li>
               <li className="text-sm">JavaScript</li>
-              <li className="text-sm">TypeScript</li>
-              <li className="text-sm">HTML</li>
-              <li className="text-sm">CSS</li>
               <li className="text-sm">SQL</li>
-              <li className="text-sm">Dart</li>
-            </ul>
-            {/* Frameworks */}
-            <ul className="gap-3 list-inside">
-              <li className="text-md text-[#00df9a]">Frameworks</li>
-              <li className="text-sm">React</li>
-              <li className="text-sm">Node.js</li>
-              <li className="text-sm">Express</li>
-              <li className="text-sm">Flask</li>
-              <li className="text-sm">Tailwind CSS</li>
-              <li className="text-sm">Flutter</li>
             </ul>
             {/* Tools */}
             <ul className="gap-3 list-inside ">
